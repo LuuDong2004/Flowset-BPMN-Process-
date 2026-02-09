@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="OpenBpmProjectModulesStateV2">
+    <option name="hasState" value="true" />
+    <option name="moduleState">
+      <JmixModuleStateV2>
+        <option name="artifactGroup" value="com.vn.workflow" />
+        <option name="artifactName" value="FlowsetProcess" />
+        <option name="artifactVersion" value="0.0.1-SNAPSHOT" />
+        <option name="buildFilePath" value="E:\Flowset\FlowsetProcess\build.gradle" />
+        <option name="buildScriptDependencies">
+          <Dependency configuration="classpath" group="org.springframework.boot" name="org.springframework.boot.gradle.plugin" version="3.4.4" />
+          <Dependency configuration="classpath" group="io.spring.dependency-management" name="io.spring.dependency-management.gradle.plugin" version="1.1.6" />
+        </option>
+        <option name="buildSystemName" value="Gradle" />
+        <option name="classesDir" value="E:\Flowset\FlowsetProcess\build\classes\java\main" />
+        <option name="dependencies">
+          <Dependency configuration="implementation" group="org.springframework.boot" name="spring-boot-starter-web" />
+          <Dependency configuration="implementation" group="org.springframework.boot" name="spring-boot-starter-jdbc" />
+          <Dependency configuration="implementation" group="org.camunda.bpm.springboot" name="camunda-bpm-spring-boot-starter" version="7.23.0" />
+          <Dependency configuration="implementation" group="org.camunda.bpm.springboot" name="camunda-bpm-spring-boot-starter-rest" version="7.23.0" />
+          <Dependency configuration="implementation" group="org.camunda.bpm.springboot" name="camunda-bpm-spring-boot-starter-webapp" version="7.23.0" />
+          <Dependency configuration="implementation" group="org.camunda.spin" name="camunda-spin-dataformat-all" version="7.23.0" />
+          <Dependency configuration="runtimeOnly" group="com.h2database" name="h2" />
+          <Dependency configuration="testImplementation" group="org.springframework.boot" name="spring-boot-starter-test" />
+          <Dependency configuration="testRuntimeOnly" group="org.junit.platform" name="junit-platform-launcher" />
+        </option>
+        <option name="jarFile" value="E:\Flowset\FlowsetProcess\build\libs\FlowsetProcess-0.0.1-SNAPSHOT-plain.jar" />
+        <option name="mavenLocal" value="true" />
+        <option name="mavenLocalURI" value="file:/$MAVEN_REPOSITORY$/" />
+        <option name="moduleName" value="FlowsetProcess" />
+        <option name="rootBuildFilePath" value="E:\Flowset\FlowsetProcess\build.gradle" />
+        <option name="rootProjectName" value="FlowsetProcess" />
+        <option name="stateBuildScriptRepositories">
+          <Repository url="https://plugins.gradle.org/m2" />
+        </option>
+        <option name="stateRepositories">
+          <Repository url="https://repo.maven.apache.org/maven2/" />
+        </option>
+      </JmixModuleStateV2>
+    </option>
+  </component>
+</module>
