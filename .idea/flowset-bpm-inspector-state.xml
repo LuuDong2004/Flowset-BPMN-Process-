@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="openbpm-bpm-inspector-state">
+    <option name="statesByFile">
+      <map>
+        <entry key="$PROJECT_DIR$/src/main/resources/Process_qbg8ldv14s.bpmn">
+          <value>
+            <FileInspectorState>
+              <option name="statesByElementId">
+                <map>
+                  <entry key="Process_qbg8ldv14s">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Process" />
+                          <option value="Process|General" />
+                          <option value="Process|History cleanup" />
+                          <option value="Process|Tasklist" />
+                          <option value="Process|Candidate starter" />
+                          <option value="Process|External Task" />
+                          <option value="Process|Job Execution" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="simple-process">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Process" />
+                          <option value="Process|General" />
+                          <option value="Process|History cleanup" />
+                          <option value="Process|Tasklist" />
+                          <option value="Process|Candidate starter" />
+                          <option value="Process|External Task" />
+                          <option value="Process|Job Execution" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </FileInspectorState>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/simple-process.bpmn">
+          <value>
+            <FileInspectorState>
+              <option name="statesByElementId">
+                <map>
+                  <entry key="Activity_16ohsxx">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Service Task" />
+                          <option value="Service Task|General" />
+                          <option value="Service Task|Implementation" />
+                          <option value="Service Task|Multi Instance" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Activity_1b4sri5">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Service Task" />
+                          <option value="Service Task|General" />
+                          <option value="Service Task|Implementation" />
+                          <option value="Service Task|Multi Instance" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Event_084x5ej">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="End Event" />
+                          <option value="End Event|General" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Flow_0sayidq">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Sequence Flow" />
+                          <option value="Sequence Flow|General" />
+                          <option value="Sequence Flow|Condition" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Participant_0igivub">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Pool/Participant" />
+                          <option value="Pool/Participant|General" />
+                          <option value="Process" />
+                          <option value="Process|General" />
+                          <option value="Process|History cleanup" />
+                          <option value="Process|Tasklist" />
+                          <option value="Process|Candidate starter" />
+                          <option value="Process|External Task" />
+                          <option value="Process|Job Execution" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Process_qbg8ldv14s">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Process" />
+                          <option value="Process|General" />
+                          <option value="Process|History cleanup" />
+                          <option value="Process|Tasklist" />
+                          <option value="Process|Candidate starter" />
+                          <option value="Process|External Task" />
+                          <option value="Process|Job Execution" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="ServiceTask_validate">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Service Task" />
+                          <option value="Service Task|General" />
+                          <option value="Service Task|Implementation" />
+                          <option value="Service Task|Multi Instance" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="simple-process">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Process" />
+                          <option value="Process|General" />
+                          <option value="Process|History cleanup" />
+                          <option value="Process|Tasklist" />
+                          <option value="Process|Candidate starter" />
+                          <option value="Process|External Task" />
+                          <option value="Process|Job Execution" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="startEvent1">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Start Event" />
+                          <option value="Start Event|General" />
+                          <option value="Start Event|Form" />
+                          <option value="Start Event|Start initiator" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </FileInspectorState>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/test-process.bpmn">
+          <value>
+            <FileInspectorState>
+              <option name="statesByElementId">
+                <map>
+                  <entry key="Activity_00l1sks">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Service Task" />
+                          <option value="Service Task|General" />
+                          <option value="Service Task|Implementation" />
+                          <option value="Service Task|Multi Instance" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Activity_08yeg6j">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Service Task" />
+                          <option value="Service Task|General" />
+                          <option value="Service Task|Implementation" />
+                          <option value="Service Task|Multi Instance" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Activity_0f0paji">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Task" />
+                          <option value="Task|General" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Activity_0ld5qyb">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="User Task" />
+                          <option value="User Task|General" />
+                          <option value="User Task|Assignee" />
+                          <option value="User Task|Form" />
+                          <option value="User Task|Multi Instance" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Activity_0wtkhd9">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Service Task" />
+                          <option value="Service Task|General" />
+                          <option value="Service Task|Implementation" />
+                          <option value="Service Task|Multi Instance" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Activity_13wlxz0">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Service Task" />
+                          <option value="Service Task|General" />
+                          <option value="Service Task|Implementation" />
+                          <option value="Service Task|Multi Instance" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Activity_16ohsxx">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Service Task" />
+                          <option value="Service Task|General" />
+                          <option value="Service Task|Implementation" />
+                          <option value="Service Task|Multi Instance" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Activity_1b4sri5">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Service Task" />
+                          <option value="Service Task|General" />
+                          <option value="Service Task|Implementation" />
+                          <option value="Service Task|Multi Instance" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Collaboration_1bbh5o0">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Collaboration" />
+                          <option value="Collaboration|General" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="EndEvent_approved">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="End Event" />
+                          <option value="End Event|General" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="EndEvent_rejected">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="End Event" />
+                          <option value="End Event|General" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Event_0g7123c">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Start Event" />
+                          <option value="Start Event|General" />
+                          <option value="Start Event|Form" />
+                          <option value="Start Event|Start initiator" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Event_1caxp89">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="End Event" />
+                          <option value="End Event|General" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Event_1he29gc">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Start Event" />
+                          <option value="Start Event|General" />
+                          <option value="Start Event|Form" />
+                          <option value="Start Event|Start initiator" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Event_1kf6470">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="End Event" />
+                          <option value="End Event|General" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Event_1lz66mq">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Start Event" />
+                          <option value="Start Event|General" />
+                          <option value="Start Event|Form" />
+                          <option value="Start Event|Start initiator" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Flow_03s9p77">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Sequence Flow" />
+                          <option value="Sequence Flow|General" />
+                          <option value="Sequence Flow|Condition" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Flow_0433oyg">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Sequence Flow" />
+                          <option value="Sequence Flow|General" />
+                          <option value="Sequence Flow|Condition" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Flow_0ajxmyv">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Sequence Flow" />
+                          <option value="Sequence Flow|General" />
+                          <option value="Sequence Flow|Condition" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Flow_0ebxq3b">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Sequence Flow" />
+                          <option value="Sequence Flow|General" />
+                          <option value="Sequence Flow|Condition" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Flow_0tqkfnx">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Sequence Flow" />
+                          <option value="Sequence Flow|General" />
+                          <option value="Sequence Flow|Condition" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Flow_0xo7xjb">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Sequence Flow" />
+                          <option value="Sequence Flow|General" />
+                          <option value="Sequence Flow|Condition" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Flow_0zssu68">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Sequence Flow" />
+                          <option value="Sequence Flow|General" />
+                          <option value="Sequence Flow|Condition" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Flow_10271bl">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Sequence Flow" />
+                          <option value="Sequence Flow|General" />
+                          <option value="Sequence Flow|Condition" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Flow_16l5kty">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Sequence Flow" />
+                          <option value="Sequence Flow|General" />
+                          <option value="Sequence Flow|Condition" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Flow_1azyuro">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Sequence Flow" />
+                          <option value="Sequence Flow|General" />
+                          <option value="Sequence Flow|Condition" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Flow_1g9e0xd">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Sequence Flow" />
+                          <option value="Sequence Flow|General" />
+                          <option value="Sequence Flow|Condition" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Flow_1ipgajj">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Sequence Flow" />
+                          <option value="Sequence Flow|General" />
+                          <option value="Sequence Flow|Condition" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Flow_1jo4z3k">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Sequence Flow" />
+                          <option value="Sequence Flow|General" />
+                          <option value="Sequence Flow|Condition" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Flow_1lffcps">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Sequence Flow" />
+                          <option value="Sequence Flow|General" />
+                          <option value="Sequence Flow|Condition" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Flow_1nvupqu">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Sequence Flow" />
+                          <option value="Sequence Flow|General" />
+                          <option value="Sequence Flow|Condition" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Flow_1tnnzdx">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Sequence Flow" />
+                          <option value="Sequence Flow|General" />
+                          <option value="Sequence Flow|Condition" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Gateway_0401a4z">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Exclusive Gateway" />
+                          <option value="Exclusive Gateway|General" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Gateway_1q6nz6y">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Exclusive Gateway" />
+                          <option value="Exclusive Gateway|General" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Gateway_decision">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Exclusive Gateway" />
+                          <option value="Exclusive Gateway|General" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Participant_0igivub">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Pool/Participant" />
+                          <option value="Pool/Participant|General" />
+                          <option value="Process" />
+                          <option value="Process|General" />
+                          <option value="Process|History cleanup" />
+                          <option value="Process|Tasklist" />
+                          <option value="Process|Candidate starter" />
+                          <option value="Process|External Task" />
+                          <option value="Process|Job Execution" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Process_qbg8ldv14s">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Process" />
+                          <option value="Process|General" />
+                          <option value="Process|History cleanup" />
+                          <option value="Process|Tasklist" />
+                          <option value="Process|Candidate starter" />
+                          <option value="Process|External Task" />
+                          <option value="Process|Job Execution" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="ServiceTask_hello">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Service Task" />
+                          <option value="Service Task|General" />
+                          <option value="Service Task|Implementation" />
+                          <option value="Service Task|Multi Instance" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="ServiceTask_validate">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Service Task" />
+                          <option value="Service Task|General" />
+                          <option value="Service Task|Implementation" />
+                          <option value="Service Task|Multi Instance" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="StartEvent_1">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Start Event" />
+                          <option value="Start Event|General" />
+                          <option value="Start Event|Form" />
+                          <option value="Start Event|Start initiator" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="UserTask_managerApprove">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="User Task" />
+                          <option value="User Task|General" />
+                          <option value="User Task|Assignee" />
+                          <option value="User Task|Form" />
+                          <option value="User Task|Multi Instance" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="endEvent1">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="End Event" />
+                          <option value="End Event|General" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="simple-process">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Process" />
+                          <option value="Process|General" />
+                          <option value="Process|History cleanup" />
+                          <option value="Process|Tasklist" />
+                          <option value="Process|Candidate starter" />
+                          <option value="Process|External Task" />
+                          <option value="Process|Job Execution" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="startEvent1">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Start Event" />
+                          <option value="Start Event|General" />
+                          <option value="Start Event|Form" />
+                          <option value="Start Event|Start initiator" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </FileInspectorState>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
