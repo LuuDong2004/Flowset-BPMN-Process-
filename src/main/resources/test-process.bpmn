@@ -6,29 +6,21 @@
              targetNamespace="http://www.flowable.org/processdef"
              xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL http://www.omg.org/spec/BPMN/2.0/20100501/BPMN20.xsd">
     <collaboration id="Collaboration_1bbh5o0">
-        <participant id="Participant_0igivub" name="test-process" processRef="Process_qbg8ldv14s"/>
+        <participant id="Participant_0igivub" name="test-process" processRef="ApprovalProcess"/>
     </collaboration>
-    <process id="Process_qbg8ldv14s" name="test-process.bpmn" isExecutable="true" camunda:historyTimeToLive="P30D">
-        <startEvent id="Event_0g7123c">
-            <outgoing>Flow_1nvupqu</outgoing>
-        </startEvent>
+    <process id="ApprovalProcess" name="Quy trình phê duyệt nghỉ phép" isExecutable="true"
+             camunda:historyTimeToLive="P30D">
         <exclusiveGateway id="Gateway_1q6nz6y" default="Flow_1ipgajj">
             <incoming>Flow_1jo4z3k</incoming>
             <outgoing>Flow_0tqkfnx</outgoing>
             <outgoing>Flow_1ipgajj</outgoing>
         </exclusiveGateway>
-        <serviceTask id="Activity_1b4sri5" name="Init order"
-                     camunda:class="com.vn.workflow.delegate.test.InitOrderDelegate">
-            <incoming>Flow_1nvupqu</incoming>
-            <outgoing>Flow_0ebxq3b</outgoing>
-        </serviceTask>
-        <serviceTask id="Activity_08yeg6j" name="Check validation"
-                     camunda:class="com.vn.workflow.delegate.test.CheckValidationDelegate">
-            <incoming>Flow_0ebxq3b</incoming>
-            <outgoing>Flow_1jo4z3k</outgoing>
-        </serviceTask>
+        <businessRuleTask id="Activity_CheckValidation" name="Check validation via DMN" camunda:resultVariable="isValid"
+                          camunda:decisionRef="LeaveValidationDecision" camunda:mapDecisionResult="singleEntry"/>
         <sequenceFlow id="Flow_0tqkfnx" name="ok" sourceRef="Gateway_1q6nz6y" targetRef="Activity_00l1sks">
-            <conditionExpression xsi:type="tFormalExpression">${isValid == true}</conditionExpression>
+            <conditionExpression xsi:type="tFormalExpression">
+                ${isValid}
+            </conditionExpression>
         </sequenceFlow>
         <serviceTask id="Activity_00l1sks" name="Identify those who agree"
                      camunda:class="com.vn.workflow.delegate.test.IdentifyAgreementDelegate">
@@ -45,37 +37,29 @@
         <sequenceFlow id="Flow_0xo7xjb" sourceRef="Activity_0ld5qyb" targetRef="Gateway_0401a4z"/>
         <sequenceFlow id="Flow_03s9p77" sourceRef="Activity_0wtkhd9" targetRef="Event_1caxp89"/>
         <sequenceFlow id="Flow_1nvupqu" sourceRef="Event_0g7123c" targetRef="Activity_1b4sri5"/>
-        <sequenceFlow id="Flow_0ebxq3b" sourceRef="Activity_1b4sri5" targetRef="Activity_08yeg6j"/>
-        <sequenceFlow id="Flow_1jo4z3k" sourceRef="Activity_08yeg6j" targetRef="Gateway_1q6nz6y"/>
+        <sequenceFlow id="Flow_0ebxq3b" sourceRef="Activity_1b4sri5" targetRef="Activity_CheckValidation"/>
+        <sequenceFlow id="Flow_1jo4z3k" sourceRef="Activity_CheckValidation" targetRef="Gateway_1q6nz6y"/>
         <serviceTask id="Activity_13wlxz0" name="Notify about the impossibility of going on vacation"
                      camunda:class="com.vn.workflow.delegate.test.NotifyImpossibilityDelegate">
             <incoming>Flow_1ipgajj</incoming>
             <incoming>Flow_0ajxmyv</incoming>
             <outgoing>Flow_1azyuro</outgoing>
         </serviceTask>
-        <sequenceFlow id="Flow_16l5kty" name="agree"
-                      sourceRef="Gateway_0401a4z"
-                      targetRef="Activity_0wtkhd9">
+        <sequenceFlow id="Flow_16l5kty" name="agree" sourceRef="Gateway_0401a4z" targetRef="Activity_0wtkhd9">
             <conditionExpression xsi:type="tFormalExpression">
-                ${approved == true}
+                ${approvers == true}
             </conditionExpression>
         </sequenceFlow>
-
-
         <exclusiveGateway id="Gateway_0401a4z">
             <incoming>Flow_0xo7xjb</incoming>
             <outgoing>Flow_16l5kty</outgoing>
             <outgoing>Flow_0ajxmyv</outgoing>
         </exclusiveGateway>
-
-        <sequenceFlow id="Flow_0ajxmyv" name="reject"
-                      sourceRef="Gateway_0401a4z"
-                      targetRef="Activity_13wlxz0">
+        <sequenceFlow id="Flow_0ajxmyv" name="reject" sourceRef="Gateway_0401a4z" targetRef="Activity_13wlxz0">
             <conditionExpression xsi:type="tFormalExpression">
-                ${approved == false}
+                ${approvers != true}
             </conditionExpression>
         </sequenceFlow>
-
         <endEvent id="Event_1kf6470">
             <incoming>Flow_1azyuro</incoming>
         </endEvent>
@@ -87,6 +71,14 @@
         <endEvent id="Event_1caxp89">
             <incoming>Flow_03s9p77</incoming>
         </endEvent>
+        <serviceTask id="Activity_1b4sri5" name="Init order"
+                     camunda:class="com.vn.workflow.delegate.test.InitOrderDelegate">
+            <incoming>Flow_1nvupqu</incoming>
+            <outgoing>Flow_0ebxq3b</outgoing>
+        </serviceTask>
+        <startEvent id="Event_0g7123c">
+            <outgoing>Flow_1nvupqu</outgoing>
+        </startEvent>
     </process>
     <bpmndi:BPMNDiagram id="BPMNDiagram_process">
         <bpmndi:BPMNPlane id="BPMNPlane_process" bpmnElement="Collaboration_1bbh5o0">
@@ -94,19 +86,8 @@
                 <omgdc:Bounds x="10" y="100" width="1348" height="250"/>
                 <bpmndi:BPMNLabel/>
             </bpmndi:BPMNShape>
-            <bpmndi:BPMNShape id="Event_0g7123c_di" bpmnElement="Event_0g7123c">
-                <omgdc:Bounds x="62" y="202" width="36" height="36"/>
-            </bpmndi:BPMNShape>
             <bpmndi:BPMNShape id="Gateway_1q6nz6y_di" bpmnElement="Gateway_1q6nz6y" isMarkerVisible="true">
                 <omgdc:Bounds x="475" y="195" width="50" height="50"/>
-            </bpmndi:BPMNShape>
-            <bpmndi:BPMNShape id="Activity_1xp8mgb_di" bpmnElement="Activity_1b4sri5">
-                <omgdc:Bounds x="160" y="180" width="100" height="80"/>
-                <bpmndi:BPMNLabel/>
-            </bpmndi:BPMNShape>
-            <bpmndi:BPMNShape id="Activity_19ber7g_di" bpmnElement="Activity_08yeg6j">
-                <omgdc:Bounds x="320" y="180" width="100" height="80"/>
-                <bpmndi:BPMNLabel/>
             </bpmndi:BPMNShape>
             <bpmndi:BPMNShape id="Activity_117zb17_di" bpmnElement="Activity_00l1sks">
                 <omgdc:Bounds x="580" y="130" width="100" height="80"/>
@@ -129,6 +110,13 @@
             </bpmndi:BPMNShape>
             <bpmndi:BPMNShape id="Event_1caxp89_di" bpmnElement="Event_1caxp89">
                 <omgdc:Bounds x="1222" y="152" width="36" height="36"/>
+            </bpmndi:BPMNShape>
+            <bpmndi:BPMNShape id="Activity_1xp8mgb_di" bpmnElement="Activity_1b4sri5">
+                <omgdc:Bounds x="240" y="170" width="100" height="80"/>
+                <bpmndi:BPMNLabel/>
+            </bpmndi:BPMNShape>
+            <bpmndi:BPMNShape id="Event_0g7123c_di" bpmnElement="Event_0g7123c">
+                <omgdc:Bounds x="82" y="192" width="36" height="36"/>
             </bpmndi:BPMNShape>
             <bpmndi:BPMNEdge id="Flow_0tqkfnx_di" bpmnElement="Flow_0tqkfnx">
                 <di:waypoint x="500" y="195"/>
@@ -160,16 +148,8 @@
                 <di:waypoint x="1222" y="170"/>
             </bpmndi:BPMNEdge>
             <bpmndi:BPMNEdge id="Flow_1nvupqu_di" bpmnElement="Flow_1nvupqu">
-                <di:waypoint x="98" y="220"/>
-                <di:waypoint x="160" y="220"/>
-            </bpmndi:BPMNEdge>
-            <bpmndi:BPMNEdge id="Flow_0ebxq3b_di" bpmnElement="Flow_0ebxq3b">
-                <di:waypoint x="260" y="220"/>
-                <di:waypoint x="320" y="220"/>
-            </bpmndi:BPMNEdge>
-            <bpmndi:BPMNEdge id="Flow_1jo4z3k_di" bpmnElement="Flow_1jo4z3k">
-                <di:waypoint x="420" y="220"/>
-                <di:waypoint x="475" y="220"/>
+                <di:waypoint x="118" y="210"/>
+                <di:waypoint x="240" y="210"/>
             </bpmndi:BPMNEdge>
             <bpmndi:BPMNEdge id="Flow_16l5kty_di" bpmnElement="Flow_16l5kty">
                 <di:waypoint x="965" y="170"/>
