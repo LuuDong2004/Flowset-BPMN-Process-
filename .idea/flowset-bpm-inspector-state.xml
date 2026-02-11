@@ -3,6 +3,78 @@
   <component name="openbpm-bpm-inspector-state">
     <option name="statesByFile">
       <map>
+        <entry key="$PROJECT_DIR$/build/resources/main/leave-validation.dmn">
+          <value>
+            <FileInspectorState>
+              <option name="statesByElementId">
+                <map>
+                  <entry key="definitions_15fad">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Dmn Root Definitions" />
+                          <option value="Dmn Root Definitions|General" />
+                          <option value="Dmn Root Definitions|Other" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </FileInspectorState>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/build/resources/main/test-process.bpmn">
+          <value>
+            <FileInspectorState>
+              <option name="statesByElementId">
+                <map>
+                  <entry key="Collaboration_1bbh5o0">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Process" />
+                          <option value="Process|General" />
+                          <option value="Process|History cleanup" />
+                          <option value="Process|Tasklist" />
+                          <option value="Process|Candidate starter" />
+                          <option value="Process|External Task" />
+                          <option value="Process|Job Execution" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Flow_16l5kty">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Sequence Flow" />
+                          <option value="Sequence Flow|General" />
+                          <option value="Sequence Flow|Condition" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="simple-process">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Process" />
+                          <option value="Process|General" />
+                          <option value="Process|History cleanup" />
+                          <option value="Process|Tasklist" />
+                          <option value="Process|Candidate starter" />
+                          <option value="Process|External Task" />
+                          <option value="Process|Job Execution" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </FileInspectorState>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/resources/Process_qbg8ldv14s.bpmn">
           <value>
             <FileInspectorState>
@@ -43,6 +115,172 @@
             </FileInspectorState>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/leave-validation.dmn">
+          <value>
+            <FileInspectorState>
+              <option name="statesByElementId">
+                <map>
+                  <entry key="LeaveValidationDecision">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Decision" />
+                          <option value="Decision|General" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="LiteralExpression_1tvawm5">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Output Entry" />
+                          <option value="Output Entry|General" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="LiteralExpression_1xjip86">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Output Entry" />
+                          <option value="Output Entry|General" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="UnaryTests_0dsqzs0">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Input Entry" />
+                          <option value="Input Entry|General" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="UnaryTests_1np1m45">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Input Entry" />
+                          <option value="Input Entry|General" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="definitions_15fad">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Dmn Root Definitions" />
+                          <option value="Dmn Root Definitions|General" />
+                          <option value="Dmn Root Definitions|Other" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </FileInspectorState>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/process/leave-validation.dmn">
+          <value>
+            <FileInspectorState>
+              <option name="statesByElementId">
+                <map>
+                  <entry key="DecisionRule_13hgvid">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Rule" />
+                          <option value="Rule|General" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="LeaveValidationDecision">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Decision" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="UnaryTests_1np1m45">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Input Entry" />
+                          <option value="Input Entry|General" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="decisionTable_03vnnub">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Decision Table" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="decision_leave-validation">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Decision" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="definitions_15fad">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Dmn Root Definitions" />
+                          <option value="Dmn Root Definitions|General" />
+                          <option value="Dmn Root Definitions|Other" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="input1">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Input Item" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="input_192d2">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Input Expression" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="output_fffb8">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Output Item" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </FileInspectorState>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/resources/simple-process.bpmn">
           <value>
             <FileInspectorState>
@@ -68,6 +306,16 @@
                           <option value="Service Task|General" />
                           <option value="Service Task|Implementation" />
                           <option value="Service Task|Multi Instance" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Collaboration_1bbh5o0">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Collaboration" />
+                          <option value="Collaboration|General" />
                         </option>
                       </ExpandedItems>
                     </value>
@@ -141,13 +389,8 @@
                     <value>
                       <ExpandedItems>
                         <option name="items">
-                          <option value="Process" />
-                          <option value="Process|General" />
-                          <option value="Process|History cleanup" />
-                          <option value="Process|Tasklist" />
-                          <option value="Process|Candidate starter" />
-                          <option value="Process|External Task" />
-                          <option value="Process|Job Execution" />
+                          <option value="Collaboration" />
+                          <option value="Collaboration|General" />
                         </option>
                       </ExpandedItems>
                     </value>
@@ -389,6 +632,28 @@
                     </value>
                   </entry>
                   <entry key="Flow_0ebxq3b">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Sequence Flow" />
+                          <option value="Sequence Flow|General" />
+                          <option value="Sequence Flow|Condition" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Flow_0lb43p2">
+                    <value>
+                      <ExpandedItems>
+                        <option name="items">
+                          <option value="Sequence Flow" />
+                          <option value="Sequence Flow|General" />
+                          <option value="Sequence Flow|Condition" />
+                        </option>
+                      </ExpandedItems>
+                    </value>
+                  </entry>
+                  <entry key="Flow_0loyafn">
                     <value>
                       <ExpandedItems>
                         <option name="items">

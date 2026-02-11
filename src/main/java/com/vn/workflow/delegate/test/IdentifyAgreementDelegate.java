@@ -13,7 +13,7 @@ public class IdentifyAgreementDelegate implements JavaDelegate {
     @Override
     public void execute(DelegateExecution execution) throws Exception {
         String approvers = "Admin";
-        execution.setVariable("approvers",approvers) ;
+        execution.setVariable("approvers", approvers) ;
 
         System.out.println("[IdentifyAgreementDelegate] Xác định danh sách người phê duyệt");
         System.out.println("[IdentifyAgreementDelegate] Người phê duyệt: " + approvers);
